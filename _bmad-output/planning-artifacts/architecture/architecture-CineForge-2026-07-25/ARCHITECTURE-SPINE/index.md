@@ -1,0 +1,26 @@
+# Architecture Spine — CineForge
+
+## Table of Contents
+
+- [Architecture Spine — CineForge](#table-of-contents)
+  - [Design Paradigm](./design-paradigm.md)
+  - [Inherited Invariants](./inherited-invariants.md)
+  - [Invariants & Rules](./invariants-rules.md)
+    - [AD-1 — Single deployment unit, two controller groups](./invariants-rules.md#ad-1-single-deployment-unit-two-controller-groups)
+    - [AD-2 — Interstitial page served by backend, not SPA](./invariants-rules.md#ad-2-interstitial-page-served-by-backend-not-spa)
+    - [AD-3 — CurrentRedirectUrl as column on Campaign table](./invariants-rules.md#ad-3-currentredirecturl-as-column-on-campaign-table)
+    - [AD-4 — RESTful Controllers, not Minimal APIs](./invariants-rules.md#ad-4-restful-controllers-not-minimal-apis)
+    - [AD-5 — Inline async scan recording (fire-and-forget)](./invariants-rules.md#ad-5-inline-async-scan-recording-fire-and-forget)
+    - [AD-6 — Cookie-based authentication sessions](./invariants-rules.md#ad-6-cookie-based-authentication-sessions)
+    - [AD-7 — Inline GeoIP lookup](./invariants-rules.md#ad-7-inline-geoip-lookup)
+    - [AD-8 — Entity Framework Core as ORM](./invariants-rules.md#ad-8-entity-framework-core-as-orm)
+  - [Dependency Direction](./dependency-direction.md)
+  - [Consistency Conventions](./consistency-conventions.md)
+  - [Stack](./stack.md)
+  - [Structural Seed](./structural-seed.md)
+    - [System Context](./structural-seed.md#system-context)
+    - [Deployment Topology](./structural-seed.md#deployment-topology)
+    - [Source Tree](./structural-seed.md#source-tree)
+    - [Core Entity Relationship](./structural-seed.md#core-entity-relationship)
+  - [Capability → Architecture Map](./capability-architecture-map.md)
+  - [Deferred](./deferred.md)
